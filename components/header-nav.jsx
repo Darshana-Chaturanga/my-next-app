@@ -24,6 +24,9 @@ export default function HeaderNav() {
               <Link href="/admin" className="hover:text-primary text-sm font-medium transition-colors">
                 Admin
               </Link>      
+              <Link href="/login" className="hover:text-primary text-sm font-medium transition-colors">
+                Login
+              </Link> 
               <ModeToggle/>    
             </nav>
           </div>
